@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Address Book</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="employee.css">
+	<script src="employee.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8a88571acd.js" crossorigin="anonymous"></script>
+
+
+	<h1>EMPLOYEE ADDRESS BOOK</h1>
+	<div class="eab-table-container" id="eabTableContainer">
+		<div class="eab-table-row">
+			<div class="eab-table-column eab-firstname eab-header">First Name</div>
+			<div class="eab-table-column eab-surname eab-header">Surname</div>
+			<div class="eab-table-column eab-phone eab-header">Contact Number</div>
+			<div class="eab-table-column eab-company eab-header">Company</div>
+			<div class="eab-table-column eab-position eab-header">Position</div>
+			<div class="eab-table-column eab-header eab-add-entry-column" id="eabAddNewEntry">+</div>
+		</div>
+		<span id="tableBody"></span>
+	</div>
+	<div class="disable-modal" id="backdrop"></div>
+    <div class="disable-modal" id="newPersonModal">
+    	<h1>Add New Employee</h1>
+
+    	<label for="newPersonName">First Name:</label>
+		<input type="text" id="newPersonName">
+		
+		<label for="newPersonName1">Surname:</label>
+		<input type="text" id="newPersonName1">
+    	<label for="newPersonPhone">Phone:</label>
+    	<input type="text" id="newPersonPhone">
+
+    	<label for="newPersonCompany">Company:</label>
+    	<input type="text" id="newPersonCompany">
+
+    	<label for="newPersonPosition">Position:</label>
+    	<input type="text" id="newPersonPosition">
+
+    	<button id="newPersonCancelBtn">Cancel</button>
+    	<button id="newPersonAddBtn">Add</button>
+    </div>
+
+   <button  style="position: absolute; left:0px; top: 5px; text-decoration: none;"><a href="AddressBook.html">Back</a></button>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faculty Adress Book</title>
+
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="facultyy.css">
+	<script src="faculty.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8a88571acd.js" crossorigin="anonymous"></script>
+
+
+
+	<h1>FACULTY ADDRESS BOOK</h1>
+	<div class="fab-table-container" id="fabTableContainer">
+		<div class="fab-table-row">
+			<div class="fab-table-column fab-firstname fab-header">First Name</div>
+			<div class="fab-table-column fab-surname fab-header">Surname</div>
+			<div class="fab-table-column fab-phone fab-header">Contact Number</div>
+			<div class="fab-table-column fab-school fab-header">School</div>
+			<div class="fab-table-column fab-department fab-header">Department</div>
+			<div class="fab-table-column fab-header fab-add-entry-column" id="fabAddNewEntry">+</div>
+		</div>
+		<span id="tableBody"></span>
+	</div>
+	<div class="disable-modal" id="backdrop"></div>
+	<div class="disable-modal" id="newPersonModal">
+		<h1>Add New Faculty</h1>
+
+		<label for="newPersonName">First Name:</label>
+		<input type="text" id="newPersonName">
+		<label for="newPersonName1">Surname</label>
+		<input type="text" id="newPersonName1">
+    	<label for="newPersonPhone">Contact Number:</label>
+    	<input type="text" id="newPersonPhone">
+    	<label for="newPersonSchool">School:</label>
+    	<input type="text" id="newPersonSchool">
+    	<label for="newPersonDepartment">Department:</label>
+    	<input type="text" id="newPersonDepartment">
+
+
+    	<button id="newPersonCancelBtn">Cancel</button>
+        <button id="newPersonAddBtn">Add</button>
+    </div>
+    <button  style="position: absolute; left:0px; top: 5px; text-decoration: none;"><a href="AddressBook.html">Back</a></button>
+
+</body>
+</html>

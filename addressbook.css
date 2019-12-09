@@ -1,0 +1,259 @@
+
+
+body {
+	font-family: 'Calistoga', cursive;
+	
+}
+
+* {
+	padding: 0px;
+	margin:0px;
+}
+
+#joshy1 {
+	background: url(cover1.jpg)no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+#PAMAGAT {
+	position: absolute;
+	top:-40px;
+	left:690px;
+	transform: translate(-50%,50%);
+	color: white;
+	font-size: 40px;
+	font-family: 'Alatsi', sans-serif;
+	text-shadow: 5px 5px black;
+	color: #2ECC71;
+}
+
+#PARAGRAPH {
+	position: absolute;
+	top: 110px;
+	left: 800px;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 25px;
+	flex-basis: 10%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #BA4A00;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px 5px black;
+	border:4px solid white;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #BA4A00;
+}
+
+.PARAGRAPH1 {
+	position: absolute;
+	top:300px;
+	left:680px;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 35px;
+	font-family: 'Patua One', cursive;
+	border:4px solid white;
+	border-top: none;
+	border-bottom:none;
+	border-left-color: rgba(0,128,128,0.8);
+	border-right-color: rgba(0,128,128.8); 
+
+
+}
+.SUN {
+	position: absolute;
+	background:url(AddressBook\sun.jpg) no-repeat;
+	top: 500px;
+	left: 500px;
+}
+.BUTTON {
+	position: absolute;
+	top:500px;
+	left: 220px;
+	transform: translate(-50%, -50%);
+
+}
+
+.BUTTON1 {
+	position: absolute;
+	top: 500px;
+	left: 670px;
+	transform: translate(-50%,-50%);
+}
+
+.BUTTON2 {
+	position: absolute;
+	top: 500px;
+	left: 1120px;
+	transform: translate(-50%,-50%);
+}
+
+h4 a {
+	position: absolute;
+	top: -105px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color:#fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg,#58D68D, #229954, #1E8449, #58D68D);
+	background-size: 400%;
+	border-radius: 100px;
+}
+h4 a:hover
+{
+	animation: animate 8s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		background-position: 0px;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+
+h4 a:before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg,#58D68D, #229954, #1E8449, #58D68D);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+ h4 a:hover:before {
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}
+
+h2 a {
+	position: absolute;
+	top: -105px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color:#fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg,#1ABC9C, #138D75, #0E6655, #1ABC9C);
+	background-size: 400%;
+	border-radius: 100px;
+}
+h2 a:hover
+{
+	animation: animate 8s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		background-position: 0px;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+
+h2 a:before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg,#1ABC9C, #138D75, #0E6655, #1ABC9C);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+h2 a:hover:before {
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}
+
+h3 a {
+	position: absolute;
+	top: -105px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color:#fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg,#3498DB, #2471A3, #1B4F72, #3498DB);
+	background-size: 400%;
+	border-radius: 100px;
+}
+h3 a:hover
+{
+	animation: animate 8s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		background-position: 0px;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+
+h3 a:before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg,#3498DB, #2471A3, #1B4F72, #3498DB);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+h3 a:hover:before {
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}

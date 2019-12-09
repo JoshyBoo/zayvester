@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Address Book</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="adress.css">
+	<script src="adress.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8a88571acd.js" crossorigin="anonymous"></script>
+
+	
+	<h1>STUDENT ADDRESS BOOK</h1>
+    <div class="sta-table-container" id="staTableContainer">
+    	<div class="sta-table-row">
+			<div class="sta-table-column sta-firstname sta-header"> First Name</div>
+			<div class="sta-table-column sta-surname sta-header">Surname</div>
+    		<div class="sta-table-column sta-phone sta-header">Contact Number</div>
+    		<div class="sta-table-column sta-school sta-header">School</div>
+    		<div class="sta-table-column sta-degree sta-header">Degree</div>
+    		<div class="sta-table-column sta-year sta-header">Year</div>
+    		<div class="sta-table-column sta-header sta-add-entry-column" id="staAddNewEntry">+</div>
+
+    	</div>
+    	<span id="tableBody"></span>
+    </div>
+    <div class="disable-modal" id="backdrop"></div>
+    <div class="disable-modal" id="newPersonModal">
+    	<h1>Add New Student</h1>
+		
+    	<label for="newPersonName">First Name:</label>
+		<input type="text" id="newPersonName">
+		
+		<label for="newPersonName1">Surname</label>
+		<input type="text" id="newPersonName1">
+
+    	<label for="newPersonPhone">Contact Number:</label>
+    	<input type="text" id="newPersonPhone">
+
+    	<label for="newPersonSchool">School:</label>
+    	<input type="text" id="newPersonSchool">
+
+    	<label for="newPersonDegree">Degree:</label>
+    	<input type="text" id="newPersonDegree">
+
+    	<label for="newPersonYear">Year:</label>
+    	<input type="text" id="newPersonYear">
+
+    	<button id="newPersonCancelBtn">Cancel</button>
+    	<button id="newPersonAddBtn">Add</button>
+
+    </div>
+    
+	<button  style="position: absolute; left:0px; top: 5px; text-decoration: none;"><a href="AddressBook.html">Back</a></button>
+
+</body>
+</html>	
